@@ -18,3 +18,9 @@ directory '/admin' do
   action :create
 end
 
+mount '/admin' do
+  device '172.16.60.222:/ibm/devops/admin	'
+  fstype 'nfs'
+  options "rw"
+  action [:mount, :enable]
+end
