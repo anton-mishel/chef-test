@@ -6,3 +6,6 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+package 'nfs' do
+  action :install
+end
