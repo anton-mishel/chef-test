@@ -9,3 +9,12 @@
 package 'nfs-common' do
   action :install
 end
+
+
+directory '/admin' do
+  owner 'root'
+  group 'root'
+  mode '0755'
+  action :create
+end
+
