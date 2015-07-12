@@ -6,6 +6,6 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-package 'nfs' do
+package 'nfs-common' do
   action :install
 end
